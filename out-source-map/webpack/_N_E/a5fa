@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/recent-files-dashboard",
+      function () {
+        return require("private-next-pages/recent-files-dashboard.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/recent-files-dashboard"])
+      });
+    }
+  

@@ -1,0 +1,24 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgEdit = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M15 15H1v-3h14z",
+  opacity: 0.4
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "m10 3-7 7v3h3l7-7m-3-3 2-2 3 3-2 2m-3-3 3 3"
+})));
+export default SvgEdit;

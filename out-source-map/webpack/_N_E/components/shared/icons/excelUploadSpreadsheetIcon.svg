@@ -1,0 +1,24 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgExcelUploadSpreadsheetIcon = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 15,
+  height: 15,
+  fill: "none",
+  viewBox: "4.5 3.375 9 11.25"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "#096",
+  stroke: "#096",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M13.5 4.875v6.879a1.5 1.5 0 0 1-.44 1.06l-1.371 1.371a1.5 1.5 0 0 1-1.06.44H6a1.5 1.5 0 0 1-1.5-1.5v-8.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5",
+  opacity: 0.4
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  fill: "#096",
+  fillRule: "evenodd",
+  d: "M8.171 9.021 6.6 6.779a.375.375 0 0 1 .307-.591h.828a.38.38 0 0 1 .307.162l.984 1.428.984-1.428a.38.38 0 0 1 .309-.162h.828a.375.375 0 0 1 .307.591L9.885 9.021l1.521 2.205a.375.375 0 0 1-.309.588h-.777a.38.38 0 0 1-.307-.159l-.984-1.407-.984 1.407a.38.38 0 0 1-.307.159H6.96a.375.375 0 0 1-.307-.588z",
+  clipRule: "evenodd"
+})));
+export default SvgExcelUploadSpreadsheetIcon;

@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/public-api",
+      function () {
+        return require("private-next-pages/public-api.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/public-api"])
+      });
+    }
+  

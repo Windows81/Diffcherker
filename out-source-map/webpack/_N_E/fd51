@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/desktop-browser-login-license-key",
+      function () {
+        return require("private-next-pages/desktop-browser-login-license-key.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/desktop-browser-login-license-key"])
+      });
+    }
+  

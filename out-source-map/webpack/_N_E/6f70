@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/pdf-convert-desktop",
+      function () {
+        return require("private-next-pages/pdf-convert-desktop.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/pdf-convert-desktop"])
+      });
+    }
+  

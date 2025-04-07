@@ -1,0 +1,24 @@
+var _rect, _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgCopy = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  className: "copy_svg__feather copy_svg__feather-copy"
+}, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+  width: 13,
+  height: 13,
+  x: 9,
+  y: 9,
+  rx: 2,
+  ry: 2
+})), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  d: "M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+})));
+export default SvgCopy;

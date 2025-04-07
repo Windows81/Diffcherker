@@ -1,0 +1,20 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgSquarePlus = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  className: "square-plus_svg__icon square-plus_svg__icon-tabler square-plus_svg__icon-tabler-square-plus"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  stroke: "none",
+  d: "M0 0h24v24H0z"
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  d: "M9 12h6M12 9v6M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+})));
+export default SvgSquarePlus;

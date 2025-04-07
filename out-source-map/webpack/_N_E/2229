@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/desktop-perpetual",
+      function () {
+        return require("private-next-pages/desktop-perpetual.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/desktop-perpetual"])
+      });
+    }
+  

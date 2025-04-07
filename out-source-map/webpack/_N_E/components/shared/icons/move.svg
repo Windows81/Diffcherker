@@ -1,0 +1,16 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgMove = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M8.5 9.5 11 12M8.5 9.5 11 7M8.5 9.5h5M7.5 6.5 5 9m2.5-2.5L5 4m2.5 2.5h-5"
+})));
+export default SvgMove;

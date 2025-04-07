@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/api-lsa",
+      function () {
+        return require("private-next-pages/api-lsa.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/api-lsa"])
+      });
+    }
+  

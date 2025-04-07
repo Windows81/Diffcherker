@@ -1,0 +1,26 @@
+var _g, _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgPagesOdd = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+  fill: "#676F7E",
+  opacity: 0.4
+}, /*#__PURE__*/React.createElement("path", {
+  fillRule: "evenodd",
+  d: "M8 3.999A1 1 0 0 0 7 3H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-.999A1 1 0 0 0 9 13h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 .999",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8 3.999h-.75a.75.75 0 0 0 1.5 0zm0 8.002h.75a.75.75 0 0 0-1.5 0zM13 13v.75zm1-1h.75zm0-8h-.75zm-7-.25a.25.25 0 0 1 .25.25l1.5-.002A1.75 1.75 0 0 0 7 2.25zm-4 0h4v-1.5H3zM2.75 4A.25.25 0 0 1 3 3.75v-1.5A1.75 1.75 0 0 0 1.25 4zm0 8V4h-1.5v8zm.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.784 1.75 1.75 1.75zm3.5 0H3v1.5h3.5zm.5 0h-.5v1.5H7zm.25-.25a.25.25 0 0 1-.25.25v1.5a1.75 1.75 0 0 0 1.75-1.748zm1.75.25a.25.25 0 0 1-.25-.25l-1.5.002A1.75 1.75 0 0 0 9 13.75zm3.5 0H9v1.5h3.5zm.5 0h-.5v1.5h.5zm.25-.25a.25.25 0 0 1-.25.25v1.5A1.75 1.75 0 0 0 14.75 12zm0-8v8h1.5V4zM13 3.75a.25.25 0 0 1 .25.25h1.5A1.75 1.75 0 0 0 13 2.25zm-4 0h4v-1.5H9zM8.75 4A.25.25 0 0 1 9 3.75v-1.5a1.75 1.75 0 0 0-1.75 1.748z"
+}))), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "#676F7E",
+  stroke: "#676F7E",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M13 4v8H9V4z"
+})));
+export default SvgPagesOdd;

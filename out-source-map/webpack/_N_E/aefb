@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/dev/colors",
+      function () {
+        return require("private-next-pages/dev/colors.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/dev/colors"])
+      });
+    }
+  

@@ -1,0 +1,16 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgLockedChain = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  stroke: "#676f7e",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2.182,
+  d: "M4.886 10.038v1.09a3.273 3.273 0 0 0 6.546 0v-1.09M11.432 5.674v-1.09a3.273 3.273 0 0 0-6.546 0v1.09M8.16 4.583v6.546"
+})));
+export default SvgLockedChain;

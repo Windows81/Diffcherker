@@ -1,0 +1,23 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgPdfGreen = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 25,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "#096",
+  stroke: "#096",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  d: "M18 5.25v12l-3 3H6v-15z",
+  opacity: 0.2
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  stroke: "#096",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  d: "M10.718 13.181c.521-1.187 1.771-4.667.709-4.604-1.063.062-.021 3.375.708 4.25s3.917 2.646 4.02 1.5c.105-1.146-3.25-.584-4.374-.23-1.072.338-5.126 1.876-3.896 2.772.983.716 2.298-2.16 2.833-3.688"
+})));
+export default SvgPdfGreen;

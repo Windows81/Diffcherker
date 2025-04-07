@@ -1,0 +1,48 @@
+var _path, _path2, _g;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgFade = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M3 12h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1",
+  opacity: 0.4
+})), /*#__PURE__*/React.createElement("mask", {
+  id: "fade_svg__a",
+  width: 12,
+  height: 8,
+  x: 2,
+  y: 4,
+  maskUnits: "userSpaceOnUse",
+  style: {
+    maskType: "alpha"
+  }
+}, _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M3 12h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1"
+}))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+  fill: "currentColor",
+  mask: "url(#fade_svg__a)"
+}, /*#__PURE__*/React.createElement("path", {
+  d: "M2 12h2V4H2z"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M4 12h2V4H4z",
+  opacity: 0.8
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M6 12h2V4H6z",
+  opacity: 0.6
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8 12h2V4H8z",
+  opacity: 0.4
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10 12h2V4h-2z",
+  opacity: 0.2
+}))));
+export default SvgFade;

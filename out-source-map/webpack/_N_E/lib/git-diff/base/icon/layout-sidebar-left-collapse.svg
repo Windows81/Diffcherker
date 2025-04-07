@@ -1,0 +1,22 @@
+var _path, _path2, _path3;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgLayoutSidebarLeftCollapse = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  className: "layout-sidebar-left-collapse_svg__icon layout-sidebar-left-collapse_svg__icon-tabler layout-sidebar-left-collapse_svg__icon-tabler-layout-sidebar-left-collapse"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  stroke: "none",
+  d: "M0 0h24v24H0z"
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  d: "M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM9 4v16"
+})), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+  d: "m15 10-2 2 2 2"
+})));
+export default SvgLayoutSidebarLeftCollapse;

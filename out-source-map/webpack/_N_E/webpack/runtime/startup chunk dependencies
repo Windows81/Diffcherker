@@ -1,0 +1,7 @@
+var next = __webpack_require__.x;
+__webpack_require__.x = () => {
+	return Promise.all([
+		__webpack_require__.e(9020),
+		__webpack_require__.e(7107)
+	]).then(next);
+};

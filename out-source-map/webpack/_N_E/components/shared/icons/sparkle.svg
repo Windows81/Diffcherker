@@ -1,0 +1,27 @@
+var _g, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgSparkle = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  clipPath: "url(#sparkle_svg__a)"
+}, /*#__PURE__*/React.createElement("path", {
+  d: "m2.193 12.239-.703-.14c-.107-.022-.107-.176 0-.197l.703-.14a2 2 0 0 0 1.568-1.57l.14-.702c.022-.107.176-.107.197 0l.14.703a2 2 0 0 0 1.57 1.569l.702.14c.107.021.107.175 0 .196l-.703.14a2 2 0 0 0-1.568 1.57l-.14.702c-.022.107-.176.107-.197 0l-.14-.703a2 2 0 0 0-1.57-1.569",
+  opacity: 0.4
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M7.206 6.441 5.49 6.098c-.107-.021-.107-.175 0-.196l1.716-.343a3 3 0 0 0 2.353-2.353l.343-1.716c.021-.107.175-.107.196 0l.343 1.716a3 3 0 0 0 2.353 2.353l1.716.343c.107.021.107.175 0 .196l-1.716.343a3 3 0 0 0-2.353 2.353l-.343 1.716c-.021.107-.175.107-.196 0l-.343-1.716a3 3 0 0 0-2.353-2.353"
+}))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+  id: "sparkle_svg__a"
+}, /*#__PURE__*/React.createElement("path", {
+  fill: "#fff",
+  d: "M0 0h16v16H0z"
+})))));
+export default SvgSparkle;

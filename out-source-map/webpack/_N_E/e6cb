@@ -1,0 +1,13 @@
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/extend-trial-for-feedback",
+      function () {
+        return require("private-next-pages/extend-trial-for-feedback.tsx");
+      }
+    ]);
+    if(module.hot) {
+      module.hot.dispose(function () {
+        window.__NEXT_P.push(["/extend-trial-for-feedback"])
+      });
+    }
+  

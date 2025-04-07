@@ -1,0 +1,23 @@
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgThumbsDown = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 16,
+  height: 16,
+  fill: "none"
+}, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M6 3.5v5.15a1 1 0 0 0 .22.624L10 14l.901-.901a1 1 0 0 0 .107-1.288L9 9h3.656a1.5 1.5 0 0 0 1.362-2.129l-1.75-3.79a1 1 0 0 0-.908-.581H7a1 1 0 0 0-1 1Z"
+})), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M2 8.5a.5.5 0 0 0 .5.5H3a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5h-.5A.5.5 0 0 0 2 3z",
+  opacity: 0.4
+})));
+export default SvgThumbsDown;
